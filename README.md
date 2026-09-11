@@ -2,7 +2,12 @@
 
 Eine interaktive, performante Web-Implementierung von Conways „Spiel des Lebens“, entwickelt nach dem Entwurfsmuster Model-View-Controller (MVC) in purem JavaScript (ES6+). Die Simulation nutzt ein Canvas-Element für die Darstellung und implementiert ein unendliches Spielfeld in Form eines Torus.
 
+**Kanone im Zoom**
 ![SpielfeldGOL](kanoneGOL.png)
+
+---
+**maximale Spielfeldgröße**
+![SpielfeldGOLmax](golMAX.png)
 
 ## Entwicklung & Git-Historie
 
