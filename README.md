@@ -80,21 +80,10 @@ Die Simulation lässt sich sowohl über die grafischen Buttons auf der Oberfläc
 ## 4. Installation & Start
 
 Da das Projekt native JavaScript-Module (`import / export`) verwendet, blockieren moderne Browser das Laden aus dem lokalen Dateisystem (`file://`) aus Sicherheitsgründen (CORS-Richtlinie). Das Projekt muss daher über einen lokalen Webserver gestartet werden.
-
-### Schritt-für-Schritt-Anleitung:
-
-1. Klicke die Projektdateien in einen gemeinsamen Ordner.
-2. Starte einen lokalen Webserver. Hier sind einige einfache Möglichkeiten:
-   - **VS Code:** Installiere die Erweiterung **Live Server** und klicke unten rechts auf "Go Live".
-   - **Node.js (npx):** Führe im Projektordner folgenden Befehl im Terminal aus:
-     ```bash
-     npx serve
-     ```
-   - **Python:** Führe folgenden Befehl im Terminal aus:
-     ```bash
-     python -m http.server 8000
-     ```
-3. Öffne den vom Server bereitgestellten Link (z. B. `http://localhost:8000` oder `http://127.0.0.1:5500`) in deinem Webbrowser.
+```bash
+python -m http.server 8000
+```
+Öffne den vom Server bereitgestellten Link (`http://localhost:8000`) in deinem Webbrowser.
 
 ---
 
