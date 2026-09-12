@@ -13,6 +13,21 @@ Eine interaktive, performante Web-Implementierung von Conways „Spiel des Leben
 
 Dieses Projekt ist rein aus Spaß an der Freude und als persönliches Programmier-Experiment an einem Stück entstanden. Aus diesem Grund wurde auf das Aufsetzen eines Git-Repositories und eine detaillierte Commit-Historie verzichtet – der Fokus lag hier ganz auf dem reinen Basteln und Ausprobieren der MVC-Logik.
 
+---
+## Entdeckungen
+Beim spielen mit den Zellen habe ich ein kleines schönes Symetrisches Muster entdeckt. Es braucht einige Zyklen und kommt dann in einen lebenden stabilen Zustand der dann Endnlos über mehrere Generationenläuft. Sicher bin ich nicht der Erste Entdecker davon, aber mir gefällts. Das ist der simple Startzustand -> probierts aus! 
+```
+0000100000
+0000100000
+0000100000
+0000000000
+0111011100
+0000000000
+0000100000
+0000100000
+0000100000
+```
+---
 
 ## Inhaltsverzeichnis
 1. Features
